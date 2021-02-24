@@ -3,9 +3,12 @@ let link1 = document.createElement('a');
 link1.href = '#';
 link1.textContent = "Homepage";
 
+let span = document.createElement('span');
+span.textContent = " | ";
+
 let link2 = document.createElement('a');
 link2.href = "#";
-link2.textContent = "About Me";
+link2.textContent = " About Me";
 
 let header = document.createElement('h1');
 header.textContent = "Welcome to my portfolio.";
@@ -31,6 +34,7 @@ ul.appendChild(li1);
 ul.appendChild(li2);
 ul.appendChild(li3);
 navbar.appendChild(link1);
+navbar.appendChild(span);
 navbar.appendChild(link2);
 document.body.appendChild(navbar);
 document.body.appendChild(header);

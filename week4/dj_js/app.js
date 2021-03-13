@@ -10,7 +10,6 @@ window.onload = function()
     box.style.backgroundColor = "black";
 }
 
-
 box.addEventListener('mouseover', (Event) => {
     box.style.backgroundColor = "blue";
 });

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #bbd3d2;
+}
+
+@media only screen and (max-width: 450px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    button {
+        background-color: red;
+        border: 1px solid rgb(143, 0, 0);
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+        width: 100px;
+        font-family: 'Kiwi Maru', serif;
+    }
+    
+    input[type=text] {
+        height: 35px;
+        font-family: 'Kiwi Maru', serif;
+    }
+    
+    #title {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+    #description {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+    #todo {
+        font-size: 42px;
+        font-family: 'Kiwi Maru', serif;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #todo-container {
+        background-color:#bbd3d2;
+        border: 1px solid black;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        margin: 25px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        inline-size: 80%;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+    
+    #titleText {
+        font-family: 'Kiwi Maru', serif;
+        padding: 10px;
+        font-size: 24px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        inline-size: 80%;
+    }
+    
+    #descriptionText {
+        font-family: 'Kiwi Maru', serif;
+        padding: 10px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        inline-size: 80%;
+        font-size: 18px;
+    }
+    
+    #container {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 451px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    button {
+        background-color: red;
+        border: 1px solid rgb(143, 0, 0);
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+        width: 100px;
+        font-family: 'Kiwi Maru', serif;
+    }
+    
+    input[type=text] {
+        height: 35px;
+        font-family: 'Kiwi Maru', serif;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #title {
+        width: 451px;
+        margin-bottom: 10px;
+    }
+    
+    #description {
+        width: 451px;
+        margin-bottom: 10px;
+    }
+    
+    #todo {
+        font-size: 42px;
+        font-family: 'Kiwi Maru', serif;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #todo-container {
+        background-color:#bbd3d2;
+        border: 1px solid black;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 451px;
+        margin: 10px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        inline-size: 450px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #titleText {
+        font-family: 'Kiwi Maru', serif;
+        padding: 10px;
+        font-size: 32px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        inline-size: 450px;
+    }
+    
+    #descriptionText {
+        font-family: 'Kiwi Maru', serif;
+        padding: 10px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        inline-size: 80%;
+        font-size: 18px;
+    }
+    
+    #container {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        width: 451px;
+    }
+}

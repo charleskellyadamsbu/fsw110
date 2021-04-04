@@ -29,5 +29,8 @@ submit.addEventListener('click', e => {
         });
     
         document.getElementsByClassName('container')[0].appendChild(container);
+
+        title.value = "";
+        description.value = "";
     }
 });
